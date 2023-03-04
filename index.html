@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.css">
+</head>
+<body>
+    <div id="header">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <a href="#" class="navbar-brand"><h1>Food Shop</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a href="#header" class="nav-link">Home</a></li>
+                    <li  class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li  class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li  class="nav-item" id="#product"><a href="#product" class="nav-link">Product</a></li>
+                    <li  class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-icon">
+                    <i class="bi bi-search" id="search"></i>
+                    <i class="bi bi-person-fill" id="profile"></i>
+                 </div>
+                </div>
+        </nav>
+        <div class="search d-flex">
+            <input type="text" class="form-control">
+            <button type="button" id="btn"><i class="bi bi-search"></i></button>
+        </div>
+        <form>
+            <h2 class="text-center">Sign Up</h2>
+            <input class="form-control" type="text" placeholder="Enter first name" required>
+            <br>
+            <input class="form-control" type="text" placeholder="Enter last name" required>
+            <br>
+            <input class="form-control" type="email" placeholder="Enter email address" required>
+            <br>
+            <input class="form-control" type="password" placeholder="Enter password" required>
+            <br>
+            <input class="form-control" type="password" placeholder="Enter confirm password" required>
+            <br>
+            <label for="Male"><input id="check" type="checkbox">Male</label>
+            <label for="Fmale"><input id="check" type="checkbox">Fmale</label>
+            <br>
+            <button class="btn btn-danger">Sign Up</button>
+        </form>
+
+
+        <div class="main">
+            <div class="row">
+                <div class="col-md-5 col-sm-6">
+                    <h2>Stay Fit Eat Healthy! Lorem ipsum dolor sit amet consectetur.</h2>
+                    <button class="btn btn-warning">More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+     <!--start about section-->
+     <section id="about">
+        <h1 class="text-center">About Section</h1>
+        <div class="row">
+            <div class="col-md-6 mt-5">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, atque.</h2>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum provident magnam quibusdam veniam? Deserunt voluptatem quibusdam, tempore, error natus nam explicabo doloribus soluta quod voluptates magnam non molestiae nulla unde!</h5>
+                <button class="btn btn-danger">See More</button>
+            </div>
+            <div class="col-md-6">
+                <img src="images/about.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+<!--End about section-->
+
+ <div class="container">
+    <section class="fruits">
+        <h1 class="text-center">Latest Fruits</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card shadow-lg">
+                    <img src="images/fruit1.jpg" class="img-fluid" alt="">
+                    <div class="card-body">
+                      <p>Fruit is good for you, but what is the healthiest fruit? All fruit offer health benefits, so include as much variety as possible.</p>
+                      <button class="btn btn-danger">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-lg">
+                    <img src="images/fruit2.jpg" class="img-fluid" alt="">
+                    <div class="card-body">
+                      <p>Fruit is good for you, but what is the healthiest fruit? All fruit offer health benefits, so include as much variety as possible.</p>
+                      <button class="btn btn-danger">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-lg">
+                    <img src="images/fruit3.jpg" class="img-fluid" alt="">
+                    <div class="card-body">
+                      <p>Fruit is good for you, but what is the healthiest fruit? All fruit offer health benefits, so include as much variety as possible.</p>
+                      <button class="btn btn-danger">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow-lg">
+                    <img src="images/fruit4.jpg" class="img-fluid" alt="">
+                    <div class="card-body">
+                      <p>Fruit is good for you, but what is the healthiest fruit? All fruit offer health benefits, so include as much variety as possible.</p>
+                      <button class="btn btn-danger">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1 class="text-center">Food Related Videos</h1>
+            <div class="col-md-6">
+                <video controls autoplay muted loop src="./video/video.mp4" type="video/mp4"></video>
+            </div>
+            <div class="col-md-6">
+                <h6 class="para">Food is the substance we eat every day for energy and strength. There are many different types of food, such as fruits, vegetables, rice, and pasta. We need to eat a variety of foods to get all the essential nutrients the body needs. Not eating a healthy and balanced diet leads to weakness and deficiency diseases.</h6>
+                <strong>People eat junk foods and other unhealthy food items only for taste. They don’t even have time to nourish their bodies with the required food. Good and healthy foods reduce stress and promote healthy life without suffering. Healthy foods help to maintain or improve overall health. Thus, it stands out of utmost importance to individuals to examine the significance of a healthy body.
+
+                    We should consume a balanced diet consisting of essential nutrition: liquids, adequate proteins, essential fatty acids, vitamins, minerals, and calories. We must eat fresh fruits, salad, green leafy vegetables, milk, egg, yoghurt, etc. on time in order to maintain a healthy body. We should eat only fresh, well-washed and well-cooked food articles which are free from dust and flies. Fried foods and foods containing excess fat, spices, and chillis are harmful. Roadside eating should be avoided. We should take the last meal two or three hours before bed.</strong>
+            </div>
+        </div>
+    </section>
+ </div>
+
+    <!--start gallery section-->
+    <section id="gallery">
+        <h1 class="text-center">Gallery Section</h1>
+         
+        <div class="container">
+            <div class="row" id="row">
+                <div class="col-md-12">
+                    <button class="btn btn-light shadow-lg"><i class="bi bi-image-fill"></i></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 shadow-lg">
+                    <img src="images/gallery1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-4 shadow-lg">
+                    <img src="images/gallery2.jpg" class="img-fluid" id="image" alt="">
+                </div>
+                <div class="col-md-4 shadow-lg">
+                    <img src="images/gallery3.jpg" class="img-fluid" id="image" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 shadow-lg">
+                    <img src="images/gallery4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-4 shadow-lg">
+                    <img src="images/gallery5.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-4 shadow-lg">
+                    <img src="images/gallery6.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 shadow-lg">
+                    <img src="images/gallery7.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-4 shadow-lg">
+                    <img src="images/gallery8.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-4 shadow-lg">
+                    <img src="images/gallery9.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+     </section>
+   
+     <!--End gallery section-->
+
+         <!--product section start-->
+    <section id="product">
+        <h1 class="text-center mt-3">All Latest Product </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images1.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 150 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images2.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 250 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images3.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 80 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images4.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 120 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images5.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 180 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images6.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 70 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images7.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 120 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images8.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 280 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images9jpg.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 80 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images10.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 90 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images11.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 85 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/images13.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Vagetables</h5>
+                           <strong>Price: 200 Tk kg</strong>
+                           <p>Food is the substance we eat every day for energy and strength.</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/pro1.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Fruits</h5>
+                           <strong>Price: 380 Tk kg</strong>
+                           <p>Fruit is good for you, but what is the healthiest fruit?</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/pro2.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Fruits</h5>
+                           <strong>Price: 220 Tk kg</strong>
+                           <p>Fruit is good for you, but what is the healthiest fruit?</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/pro3.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Fruits</h5>
+                           <strong>Price: 480 Tk kg</strong>
+                           <p>Fruit is good for you, but what is the healthiest fruit?</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/pro4.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Fruits</h5>
+                           <strong>Price: 180 Tk kg</strong>
+                           <p>Fruit is good for you, but what is the healthiest fruit?</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/pro5.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Fruits</h5>
+                           <strong>Price: 480 Tk kg</strong>
+                           <p>Fruit is good for you, but what is the healthiest fruit?</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/pro6.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Fruits</h5>
+                           <strong>Price: 380 Tk kg</strong>
+                           <p>Fruit is good for you, but what is the healthiest fruit?</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/pro7.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Fruits</h5>
+                           <strong>Price: 160 Tk kg</strong>
+                           <p>Fruit is good for you, but what is the healthiest fruit?</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-lg">
+                        <img src="images/pro8.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                           <h5 class="text-bold">Healthy Fruits</h5>
+                           <strong>Price: 190 Tk kg</strong>
+                           <p>Fruit is good for you, but what is the healthiest fruit?</p>
+                           <button class="btn btn-danger">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--product section end-->
+
+    <!--review section start-->
+    <section id="review">
+        <h1 class="text-center mt-3">Review Section</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-lg">
+                    <img src="images/review-1 (1).jpg" class="img-fluid" alt="">
+                    <div class="card-body">
+                        <h5>Alexa Blish</h5>
+                        <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, id?</strong>
+                        <br>
+                        <button class="btn btn-danger mt-2">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg">
+                    <img src="images/review-1 (2).jpg" class="img-fluid" alt="">
+                    <div class="card-body">
+                        <h5>Jhon Rehman</h5>
+                        <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, id?</strong>
+                        <br>
+                        <button class="btn btn-danger mt-2">More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-lg">
+                    <img src="images/review-1 (3).jpg" class="img-fluid" alt="">
+                    <div class="card-body">
+                        <h5>Jonny Baristow</h5>
+                        <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, id?</strong>
+                        <br>
+                        <button class="btn btn-danger mt-2">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--review section end-->
+
+
+     <!--contact section start-->
+
+     <section id="contact">
+        <h1 class="text-center text-light">Contact Section</h1>
+        <div class="row">
+            <div class="col-md-6">
+               <div class="card">
+                <input class="form-control" type="text" placeholder="Enter your name" required>
+               <br>
+               <input class="form-control" type="gmail" placeholder="Enter your gmail" required>
+               <br>
+               <input class="form-control" type="password" placeholder="Enter your password" required>
+               <br>
+               <textarea name="messege"  placeholder="Enter your messege" required></textarea>
+               <br>
+                <input type="submit" id="btn" value="Order Now">
+               </div>
+            </div>
+            <div class="col-md-6">
+                <h4 class=" text-center text-light mt-3">Google Location</h4>
+                <p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.6319714356155!2d90.26757411413536!3d23.93808288749938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e95fae1bfcdd%3A0x6d0f6dcd59e84e3d!2sBaipail%20Bus%20Stand!5e0!3m2!1sbn!2sbd!4v1677895248709!5m2!1sbn!2sbd" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+            </div>
+        </div>
+
+
+    <!--footer-->
+    <section id="footer">
+        <div class="container">
+           <div class="row mt-3">
+            <div class="col-md-6 mt-3">
+                <nav>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                   </nav>
+            </div>
+
+            <div class="col-md-6 mt-3">
+                <div class="social-icon">
+                    <a class="btn btn-light shadow-lg" href="#"><i class="bi bi-facebook" id="icon"></i></a>
+                    <a  class="btn btn-light shadow-lg" href="#"><i class="bi bi-youtube"  id="icon"></i></a>
+                    <a  class="btn btn-light shadow-lg" href="#"><i class="bi bi-instagram" id="icon"></i></a>
+                    <a  class="btn btn-light shadow-lg" href="#"><i class="bi bi-twitter"  id="icon"></i></a>
+                   </div>
+
+                   <a href="#"> <i class="bi bi-arrow-up-circle-fill" id="arow"></i></a>
+        </div>
+           </div>
+
+           <div class="form d-flex">
+            <input class="form-control" type="gmait" name="gmail" placeholder="Enter your gmail">
+            <input type="submit" value="Send" id="send">
+           </div>
+      </section>
+      </footer>
+
+
+    <script src="jquery-3.6.3.js"></script>
+    <script src="index.js"></script>
+   <script src="js/bootstrap.js"></script>
+</body>
+</html>
